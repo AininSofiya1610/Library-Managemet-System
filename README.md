@@ -1,17 +1,36 @@
-To deploy to Vercel:
+# 📚 Librarium — Library Management System
 
-Extract the zip
-Run npm install in the folder
-Push to GitHub (or use Vercel CLI):
+A modern library management system built with Next.js.
 
----
+## 🚀 Live Demo
 
-bash   npm i -g vercel
-   cd library-system
-   vercel
+👉 [https://library-system-coral-three.vercel.app](https://library-system-coral-three.vercel.app)
 
----
+## ✨ Features
 
-Follow the prompts — Vercel auto-detects Next.js, no config needed
+- 📖 Book management (add, delete, search)
+- 👥 Member management
+- 🔄 Borrow & return tracking
+- ⚠️ Overdue detection
+- 📊 Dashboard with statistics
 
-navigate to the system using this link: https://library-system-coral-three.vercel.app
+## 🛠️ Tech Stack
+
+- Next.js 15
+- TypeScript
+- Tailwind CSS
+- localStorage (data persistence)
+
+## 📦 Installation
+
+```bash
+npm install
+npm run dev
+```
+
+## ☁️ Deploy to Vercel
+
+```bash
+npm install -g vercel
+vercel --prod
+```
